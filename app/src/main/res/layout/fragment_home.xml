@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.healthmate.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I started this youtube channel in 2015. I set out with the goal of producing quick, but informational videos that only contain information relevant to the topic at hand. I wanted to set up a channel where new and even experienced programmers could search for whatever they are working on, and they would find a short, quick, and accurate video that pertains to their needs.
+
+What does all this mean? Well basicly when you find yourself watching one of my tutorial videos, you can relax knowing that you will only see and hear content directly relating to the topic you are currently pursuing. That means no long lengthy intros, no listening to someone go off about random things in their youtube channel that you couldn't careless about. It means I will get right to the point. It means the video will be quick in an effort to show my respect for your time, and that I want you to be satisfied with you have viewed.
+
+Even though I am only Android Studio for these tutorials, you should still be able to follow along for the most part in other programs like eclipse."
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
